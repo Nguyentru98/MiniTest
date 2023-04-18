@@ -8,18 +8,17 @@
 </head>
 <body>
     <script>
-         // b. tính tổng các số chia hết cho 5 từ a->b
+        // đếm các số chia 7 dư 4 !
         let a = prompt('nhap a')
         let b = prompt('nhap b')
-        let sum = 0
-             for(let i=a; i<b; i++){
-                if(i%5===0){
-                    sum += i
-                document.write(sum +'<br>')
-
-                }
-            }
-
+        let dem = 0;
+        for(let i =a; i<b ;i++){
+            if (i%7==4) {
+                dem++
+            }       
+        }
+        document.write('in ra la :'+ dem)
+    
     </script>
 </body>
 </html>

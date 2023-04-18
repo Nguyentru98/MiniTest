@@ -7,9 +7,16 @@
     <title>Document</title>
 </head>
 <body>
-        <script>
-        let anh = prompt('nhap vao anh:');
-        document.write(`<img src="${anh}"</img>`)
+    <script>
+        //tính tổng bình phương các số từ a->b
+        let a = +prompt('nhap a')
+        let b=  +prompt('nhao b')
+        let tbp = 0 
+        for(i=a ;i<=b ;i++) {
+            tbp +=i^2
+        }
+            document.write(tbp)
+
     </script>
 </body>
 </html>
